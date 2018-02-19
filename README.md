@@ -1,9 +1,7 @@
-
-## Requirements
-- Docker
+Docker container environment for deleting uploaded files on Slack
 
 ## Usage
-```sh
+```
 # clone repository
 git clone https://github.com/metaVariable/slack-delete.git
 
@@ -15,6 +13,7 @@ docker run -it --rm slack-delete \
     python slack_delete.py --token $YOUR_API_TOKEN
 ```
 
+## Options
 
 - `--token $YOUR_API_TOKEN`
     - Specifies the OAuth token used for authentication, created at (https://api.slack.com/docs/oauth-test-tokens)|
