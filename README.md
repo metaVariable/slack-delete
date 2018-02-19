@@ -1,4 +1,4 @@
-Docker container environment for deleting uploaded files on Slack
+Delete all Slack files, but leave starred and pinned items alone.  (original by [@technmsg/slack_delete.py](https://gist.github.com/technmsg/76c8120425df71a7058e986cca5e4b3f))
 
 ## Usage
 ```
